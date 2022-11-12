@@ -22,4 +22,13 @@ public class Apple {
                 '}';
     }
 
+    // overloading constructor with 3 args
+    public Apple(String color, String taste, double price) {
+        this.color = color;
+        this.price = price;
+        this.taste = taste;
+    }
+
+
+
 }
