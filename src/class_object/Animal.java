@@ -6,7 +6,6 @@ public class Animal {
 
     // 2 args constructor with name and age
     public Animal(String name, int age) {
-        System.out.println("This is a 2 args constructors");
         // assign info to the object with <this>
         this.name = name;
         this.age = age;
@@ -15,7 +14,6 @@ public class Animal {
     // constructor with 5 args
     public Animal(String name, int age, boolean isCarnivore, boolean isHerbivore, boolean isOmnivore) {
         this(name, age);
-        System.out.println("This is 5 args constructor");
         this.isCarnivore = isCarnivore;
         this.isHerbivore = isHerbivore;
         this.isOmnivore = isOmnivore;
@@ -43,6 +41,10 @@ public class Animal {
         return result;
     }
 
+    @Override
+    protected void finalize() throws Throwable {
+        System.out.println( getClass().getName() + " " + this.name + " object is destroyed");
+    }
 
     // testing the new class
     public static void main(String[] args) {

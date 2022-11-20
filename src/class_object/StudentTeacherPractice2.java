@@ -35,6 +35,8 @@ Find the age difference bt the oldest and youngest student
         }
         System.out.println(maxAge - minAge);
 
+//        List<Student> students = new ArrayList<>(Arrays.asList(student6, student7, student8, student9));
+//        System.out.println(students.stream().max( -> s.age));
 
     }
 }
