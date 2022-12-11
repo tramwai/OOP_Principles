@@ -1,4 +1,4 @@
-package oop_principles.recap.abstraction;
+package recap.abstraction;
 
 public class Bird extends Creature implements Wings, Claws{
 

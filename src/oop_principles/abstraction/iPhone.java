@@ -1,7 +1,5 @@
 package oop_principles.abstraction;
 
-import oop_principles.recap.abstraction.Wings;
-
 public class iPhone extends Phone implements Camera, WiFi {
 
      public iPhone(){}

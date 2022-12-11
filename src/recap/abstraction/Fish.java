@@ -1,4 +1,4 @@
-package oop_principles.recap.abstraction;
+package recap.abstraction;
 
 public class Fish extends Creature implements Fin{
 
